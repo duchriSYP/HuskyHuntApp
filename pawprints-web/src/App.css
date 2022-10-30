@@ -1,0 +1,87 @@
+.dashboard-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  height: 100vh;
+}
+
+.dashboard-center {
+  width: 100%;
+  position: relative;
+}
+
+.dashboard-right {
+  width: 350px;
+}
+
+.list-group {
+  max-height: calc(100vh - 34px);
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 0;
+}
+
+.bottom-left-absolute {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.bottom-right-absolute {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.top-right-absolute {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.dashboard-form {
+  padding: 5%;
+  width: 300px;
+  height: 600px;
+}
+
+.side-by-side {
+  display: flex;
+}
+
+.submit-delete-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type=text],
+input[type=number] {
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 0;
+  cursor: pointer;
+}
+
+// Supposed to
+// put the google places autocomplete dropdown results above the bootstrap modal 1050 zindex.
+div.pac-container {
+  z-index: 99999999999 !important;
+}
+
+.modal {
+  z-index: 600;
+}
+
+.modal-backdrop {
+  z-index: 500;
+}

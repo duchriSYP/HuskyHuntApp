@@ -1,0 +1,16 @@
+ {
+   "expo": {
+    "name": "PawPrints",
+    "icon": "./assets/images/paw-prints.png",
+    "version": "1.0.0",
+    "slug": "my-new-project",
+    "ios": {
+      "bundleIdentifier": "org.hh.ios",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "org.hh.android",
+      "versionCode": 1
+    }
+   }
+ }
